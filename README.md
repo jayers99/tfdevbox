@@ -1,30 +1,17 @@
 # tfdevbox
 Terraform Development Box
 
-## Install list
-
-python3
-pipenv
-
-go
-
-git
-boto3
-jq
-terraform
-
-aws cli tools
+## Linux Tools
 tree
 traceroute
 htop
 bind-utils
 tmux
 nmap-ncat
-
-efs attachment
-
-number list of users
-
+ctags
+zsh
+oh-my-zsh
+## Vim Tools
 vim plugins
 vim-plug
 Plug 'hashivim/vim-terraform'
@@ -41,13 +28,25 @@ markdown
 bash script
 go
 python
+## Dev Tools
+### Python
+python3
+pipenv
+boto3
+### GO
+go
+### Terraform
+terraform
+### Markdown
+### AWS Cli/Bash
+aws cli tools
+jq
+### Source Control
+git
 tig
-
-ctags
-
-zsh
-oh-my-zsh
-
+## User Setup
+efs attachment
+create users with consistent number list of users
 new user create process
 simple vimrc
 
