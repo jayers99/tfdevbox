@@ -1,5 +1,5 @@
 # tfdevbox
-Terraform Development Box
+Terraform Development Box in AWS
 
 ## Linux Tools
 * tree
@@ -14,14 +14,21 @@ Terraform Development Box
 ## Vim Tools
 * vim plugins
 * vim-plug
-* Plug 'hashivim/vim-terraform'
-* Plug 'mogelbrod/vim-jsonpath'
-* Plug 'scrooloose/nerdtree' " file nav
-* Plug 'vim-airline/vim-airline' " color footer block
-* Plug 'vim-airline/vim-airline-themes'
-* Plug 'flazz/vim-colorschemes'
-* Plug 'qualiabyte/vim-colorstepper'
-* Plug 'ervandew/supertab'
+``` vim
+" vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'hashivim/vim-terraform'
+Plug 'mogelbrod/vim-jsonpath'
+Plug 'scrooloose/nerdtree' " file nav
+Plug 'vim-airline/vim-airline' " color footer block
+Plug 'vim-airline/vim-airline-themes'
+Plug 'flazz/vim-colorschemes'
+Plug 'qualiabyte/vim-colorstepper'
+Plug 'ervandew/supertab'
+Plug 'kien/ctrlp.vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+call plug#end()
+```
 * Plug 'kien/ctrlp.vim'
 * json
 * markdown
