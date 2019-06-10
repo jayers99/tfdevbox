@@ -29,7 +29,6 @@ Plug 'kien/ctrlp.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 ```
-* Plug 'kien/ctrlp.vim'
 * json
 * markdown
 * bash script
